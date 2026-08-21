@@ -3,15 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>React App</title>
+    <!-- React and ReactDOM CDN -->
+    <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+    <!-- Babel standalone to compile JSX in browser -->
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
 </head>
 <body>
-    <input type="text" name="name" id="name"><br>
-    <input type="email" name="email" id="email"><br>
-    <input type="password" name="password" id="password"><br>
-    <button type ="button">REGISTER</button>
-    <div id="students"></div>
-    <script src="./index1.js"></script> 
+    <div id="root"></div>
 
+    <script type="text/babel" src="index.js"></script>
 </body>
 </html>
