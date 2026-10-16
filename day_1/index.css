@@ -1,0 +1,27 @@
+body{
+    font-family: Arial;
+    background:#eee;
+}
+
+form{
+    width:250px;
+    margin:50px auto;
+    padding:20px;
+    background:white;
+    border-radius:10px;
+    box-shadow:0 0 10px gray;
+}
+
+input,button{
+    width:100%;
+    padding:8px;
+    margin:5px 0;
+    border-radius:5px;
+    border:1px solid #ccc;
+}
+
+button{
+    background:blue;
+    color:white;
+    cursor:pointer;
+}

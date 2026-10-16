@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: serif; /* Matches the serif style in the image */
+}
+
+body {
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.card {
+    background-color: #fff9e6; /* Light cream background color */
+    border: 2px solid #000;
+    width: 450px;
+    padding: 20px 0;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.section {
+    padding: 20px 0;
+}
+
+.user-data {
+    border-bottom: 1px solid #333;
+}
+
+.user-data h2, 
+.counter-app h2 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #4a3b32;
+    margin-bottom: 12px;
+}
+
+.user-data p {
+    font-size: 16px;
+    color: #4a3b32;
+    margin: 6px 0;
+}
+
+.counter-control {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 18px;
+    color: #4a3b32;
+    margin-top: 10px;
+}
+
+.counter-control button {
+    background-color: #efefef;
+    border: 1px solid #767676;
+    padding: 2px 8px;
+    font-size: 14px;
+    cursor: pointer;
+    border-radius: 2px;
+    user-select: none;
+}
+
+.counter-control button:hover {
+    background-color: #e0e0e0;
+}
+
+.counter-control button:active {
+    background-color: #ccc;
+}

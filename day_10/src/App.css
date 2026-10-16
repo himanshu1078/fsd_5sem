@@ -1,0 +1,102 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #33565d;
+  font-family: serif;
+}
+
+.container {
+  text-align: center;
+  width: 100%;
+}
+
+.header-banner {
+  background-color: #22211f;
+  padding: 6px 0;
+  width: 100%;
+}
+
+.header-banner h1 {
+  color: #434293;
+  font-size: 2rem;
+  margin: 0;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 15px 0 20px 0;
+}
+
+.content h2 {
+  font-size: 1.5rem;
+  margin: 8px 0;
+  color: #0e232b;
+}
+
+.img-frame {
+  width: 220px;
+  height: 220px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  margin-bottom: 10px;
+}
+
+.slider-img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border: 1px solid #b96db6;
+}
+
+.button-group {
+  display: inline-flex;
+  gap: 2px;
+}
+
+.button-group button {
+  padding: 3px 10px;
+  font-size: 0.9rem;
+  background-color: #513636;
+  border: 1px solid #a2d5ae;
+  border-radius: 2px;
+  cursor: pointer;
+}
+
+.button-group button:hover {
+  background-color: #4a52a5;
+}
+/* Container holding the image and button group */
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;    /* Centers items horizontally */
+  justify-content: center; /* Centers items vertically */
+  width: 100%;
+  margin-top: 15px;
+}
+
+/* Button group styling for perfect horizontal centering */
+.button-group {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 4px;
+  margin-top: 10px;
+}
+
+.button-group button {
+  padding: 4px 12px;
+  font-size: 0.9rem;
+  background-color: #c77aab;
+  border: 1px solid #454244;
+  border-radius: 2px;
+  cursor: pointer;
+}
+
+.button-group button:hover {
+  background-color: #ddd;
+}
